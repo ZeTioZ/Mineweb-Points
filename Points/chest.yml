@@ -1,0 +1,59 @@
+#Chest
+Chest:
+#Ne fonctionne pas pour le moment 1 seule ligne
+  Rows: 1
+  Name: "Boutique Mineweb"
+  
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: "spawn %PLAYER%"
+#Commande de recompense avec les points boutiques %PLAYER%
+  NAME: "&eTitre1"
+  LORE:
+    - "&eIt justs executes /spawn"
+    - "&eas the player who clicked."
+#Jusqu'a 8 lores
+  NOMBRE: 10
+  ID: WOOL
+  POSITIONX: 0
+  PRIX: 
+    IG: 150
+#l'argent que le joueur doit depenser en jeu
+    WEB: 15
+#euros boutique gagné
+
+2:
+  COMMAND: "spawn %PLAYER%"
+  NAME: "&eTitre2"
+  LORE:
+    - "&eIt justs executes /spawn"
+    - "&eas the player who clicked."
+  ID: BEDROCK
+  NOMBRE: 10
+  POSITIONX: 4
+  PRIX: 
+    IG: 150
+    WEB: 15
+3:
+  COMMAND: "spawn %PLAYER%"
+  NAME: "&eTitre3"
+  LORE:
+    - "&eIt just executes /spawn"
+    - "&eas the player who clicked."
+  ID: BED
+  NOMBRE: 10
+  POSITIONX: 8
+  PRIX: 
+    IG: 150
+    WEB: 15
+  
+# même model jusqu'a 9
+#Pour desactiver il suffit de supprimer les lignes
+#Les positions vont de 0 a 8, 0 etant la premiere case
+#%PLAYER% pour remplacer un joueur

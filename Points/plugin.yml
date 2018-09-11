@@ -1,0 +1,21 @@
+name: Points
+version: 1.0
+author: ZeTioZ
+main: fr.opsycraft.Points.main
+commands:
+  points:
+    aliases: [pts]
+    description: Voir les commandes disponibles
+permissions:
+  points.set:
+    default: op
+    description: Mettre de l'argent admin
+  points.add:
+    default: op
+    description: Ajouter de l'argent
+  points.remove:
+    default: op
+    description: Retirer de l'argent
+  points.shop:
+    default: op
+    description: Regarder le shop ingame
