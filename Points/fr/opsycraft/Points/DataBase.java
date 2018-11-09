@@ -126,11 +126,13 @@ public class DataBase
       state.executeUpdate(request);
       state.close();
       System.out.println("[Points] L'opération a réussis.");
+      System.out.println("[Points] Opération " + request + " .");
     }
     catch (SQLException e)
     {
       e.printStackTrace();
       System.out.println("[Points] L'opération a échouée.");
+      System.out.println("[Points] Opération " + request + " .");
     }
   }
 }
